@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Beautify dev.to",
+  "version": "1.0",
+  "description": "Beautify dev.to and get focused on your content",
+  "permissions": ["storage", "declarativeContent"],
+  "content_scripts": [
+    {
+      "matches": ["https://dev.to/*"],
+      "css": ["main.css"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "page_action": {
+    "default_title": "My custom extension page",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/mLogo16.png",
+      "32": "images/mLogo32.png",
+      "48": "images/mLogo48.png",
+      "128": "images/mLogo128.png"
+    }
+  },
+  "icons": {
+    "16": "images/mLogo16.png",
+    "32": "images/mLogo32.png",
+    "48": "images/mLogo48.png",
+    "128": "images/mLogo128.png"
+  }
+}
