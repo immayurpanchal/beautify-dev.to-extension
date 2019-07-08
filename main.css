@@ -44,6 +44,12 @@ body {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
     border: none !important;
     margin-bottom: 30px !important;
+    font-family: 'Nanum Gothic', sans-serif !important;
+    text-align: left !important;
+}
+
+.discuss-list-comment-count {
+    display: inline-block !important;
 }
 
 #top-bar {
@@ -67,9 +73,9 @@ body {
     border-radius: 10px !important;
     padding: 8px !important;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
-    -webkit-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s !important;
     /* Safari */
-    transition-duration: 0.4s;
+    transition-duration: 0.4s !important;
 }
 
 .home .articles-list .article-engagement-count.bookmark-engage:hover {
@@ -84,9 +90,9 @@ body {
     border-radius: 10px !important;
     padding: 8px !important;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
-    -webkit-transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s !important;
     /* Safari */
-    transition-duration: 0.4s;
+    transition-duration: 0.4s !important;
 }
 
 .cta.cta-button:hover {
@@ -164,4 +170,75 @@ body {
 #nav-search:focus {
     border-color: rgba(33, 150, 243, 0.5) !important;
     box-shadow: 0 0 4px rgba(33, 150, 243, 0.3) !important;
+}
+
+.sidebar-nav-element {
+    font-family: 'Nanum Gothic', sans-serif !important;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+}
+
+.sidebar-nav-header .sidebar-nav-header-middle {
+    font-family: 'Nanum Gothic', sans-serif !important;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+}
+
+#sidebar-nav-followed-tags {
+    font-family: 'Nanum Gothic', sans-serif !important;
+}
+
+.featured-tags.tags {
+    font-family: 'Nanum Gothic', sans-serif !important;
+}
+
+.featured-user-name {
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
+
+#write-link {
+    background: none !important;
+    border: 2px solid #2196f3 !important;
+    color: #2196f3 !important;
+    border-radius: 10px !important;
+    padding: 8px !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+    -webkit-transition-duration: 0.4s !important;
+    /* Safari */
+    transition-duration: 0.4s !important;
+}
+
+#write-linnk:hover {
+    background: #2196f3 !important;
+    color: white !important;
+}
+
+.home .side-bar .widget header a h4 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.sidebar-nav-link {
+    margin-bottom: 10px !important;
+}
+
+.article-reading-time {
+    right: 123px !important;
+}
+
+.bm-initial {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.bm-success {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.home .articles-list .single-article h4 a {
+    font-family: "Noto Sans JP", sans-serif !important;
+    font-weight: bold !important;
+}
+
+.tag {
+    font-family: "Nanum Gothic", sans-serif !important;
 }
