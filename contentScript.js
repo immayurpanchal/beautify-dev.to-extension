@@ -1,4 +1,3 @@
-console.log('The color is green.');
 var link = document.createElement('link');
 link.setAttribute(
     'href',
